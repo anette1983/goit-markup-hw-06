@@ -842,7 +842,6 @@ margin-left: auto;
   background-color: transparent;
   border: 1px solid var(--footer-input-border);
   border-radius: 4px;
-  outline:none;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   
   
@@ -916,6 +915,7 @@ margin-left: auto;
   background-color: var(--secondary-fill-color);
   border-radius: 4px;
   border: none;
+  /* border: transparent ? */
 
   cursor: pointer;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
